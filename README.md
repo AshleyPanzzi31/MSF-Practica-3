@@ -10,11 +10,15 @@ Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, T
 Diseñar un controlador que permita formular un protocolo de tratamiento para que un paciente
 con enfisema (caso) presente la misma presión alveolar que un individuo sano (control).
 ## Actividades
-1. Calcular analíticamente la función de transferencia del sistema.
+1. Calcular analÌticamente la funcion de transferencia del sistema pulmonar.
 2. Establecer el modelo de ecuaciones integro-diferenciales.
 3. Determinar el error en estado estacionario y la estabilidad del sistema en lazo abierto.
-4. Diseñar el controlador con Simulink utilizando el bloque PID Controller y la herramienta Tune para sintonizar los valores óptimos para cada una de las ganancias kP, kI y kD.
-5. Determinar la respuesta  normal y anormal, en Python, Simulink y Multisim del circuito RLC.
+4. Construir el diagrama de bloques como se indica en la Figura 5.4.
+5. DiseÒar el controlador con Simulink utilizando el bloque PID Controller y la herramienta Tune para sintonizar los valores Ûptimos para cada una de las ganancias kP, kI y kD.
+6. Ilustrar el cambio del áujo de aire y el volumen tidal en respuesta a las siguientes formas de onda de presion sinusoidal en la apertura de la vÌa aÈrea[Paot)]:
+a)15respiraciones por minuto con una amplitud(A)de2:5cmH2O, es decir, respiraciÛn normal.
+b)30respiraciones por minuto con una amplitud(A)de1:5cmH2O, es decir, respiraciÛn elevadao taquipnea.
+7. Determinar la respuesta a la funciÛn sinusoidal[u(t) =Asin!t]en el intervalot2[0;30](segundos),en Python, Simulink y Multisim en lazo abierto y en lazo cerrado con el controlador.
 
 ## Docente
 Dr. Paul A. Valle
